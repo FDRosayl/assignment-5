@@ -92,3 +92,16 @@ else {
     var bill2 = aC2 * (25 / 100) + aC2;
     console.log(bill2);
 }
+var temp:number = 20; //degree celcius
+ var tempInFahrenHeight:number = (temp*9/5)+32;
+ console.log(tempInFahrenHeight);
+ var fahrenHightTemp:number = 68;
+ var tempCelcius:number = (fahrenHightTemp-32)*5/9;
+ console.log(tempCelcius);
+
+  
+//write a program that calculate the percentage.
+var givenNumber:number = 40;
+var totalNumber:number = 80;
+var _PerNumber:number = (givenNumber/totalNumber)*100;
+console.log(_PerNumber);
